@@ -19,8 +19,8 @@ function init() {
         alert('Bingo!!!')
       } else {
       index += 1;
-      }  
-    }  
+      }
+    }
   });
 }
 init();
