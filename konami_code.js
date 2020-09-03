@@ -24,10 +24,9 @@ function init() {
       } else {
       index += 1;
       }
-    // if they key does not match it sets the index back to 0 to start over  
+    // if they key does not match it sets the index back to 0 to start over
     } else {
       index = 0;
     }
   });
 }
-
