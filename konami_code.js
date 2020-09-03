@@ -15,11 +15,5 @@ function init() {
   let index = 0;
   document.body.addEventListener('keydown', function(event) {
     while (event.key.charCodeAt() === KonomiCode[index]) {
-      if (index === 9) {
-        alert('Bingo!!!')
-      }
-      index += 1;
-    }
-    index = 0;
   });
 }
