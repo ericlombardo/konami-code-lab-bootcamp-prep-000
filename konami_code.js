@@ -19,7 +19,7 @@ function init() {
     if (event.key === codes[index]) {
       // if all 10 keys are pressed, message displays
       if (index === 9) {
-        alert('Congrats, you have accomplished the Konami Code!!')
+        alert('Hurray')
       // if not you add one to the index
       } else {
       index += 1;
