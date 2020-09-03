@@ -12,12 +12,11 @@ const codes = [
 ];
 
 function init() {
-  // attach event listener to document.body
-  const main = document.querySelector('body');
-  main.addEventListener('keydown', function(k) {
-    if (k.value === 97) {
-      console.log('hoooray')
-    }
+  document.body.addEventListener('keydown', function(event) {
+      var keystroke = event.key;
+      if (key.charCodeAt(0) === 97) {
+          alert('bingo yo');
+      }
   });
   // check for 'keydown' events
   // if code is correct -> alert() congrats message
