@@ -18,8 +18,8 @@ function init() {
       if (index === 9) {
         alert('Bingo!!!')
       }
-      index += 1;  
+      index += 1;
     }
-    index = 0;    
+    index = 0;
   });
 }
