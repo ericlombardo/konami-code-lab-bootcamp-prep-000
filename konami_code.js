@@ -10,14 +10,16 @@ const codes = [
   "b",
   "a"
 ];
-
+var KonomiCode = [24, 24, 25, 25, 27, 26, 27, 26, 98, 97];
 function init() {
+  let index = 0;
   document.body.addEventListener('keydown', function(event) {
-  if (event.key === 'a') {
-    alert('bingo');
+    while (event.key.charCodeAt() === KonomiCode[index]) {
+      if (index === 9) {
+        alert('Bingo!!!')
+      }
+      index += 1;  
+    }
+    index = 0;    
   });
-  // check for 'keydown' events
-  // if code is correct -> alert() congrats message
-  // if not, keep listening
-
 }
