@@ -13,10 +13,8 @@ const codes = [
 
 function init() {
   document.body.addEventListener('keydown', function(event) {
-      var keystroke = event.key;
-      if (key.charCodeAt(0) === 97) {
-          alert('bingo yo');
-      }
+  if (event.key === 'a') {
+    alert('bingo');
   });
   // check for 'keydown' events
   // if code is correct -> alert() congrats message
